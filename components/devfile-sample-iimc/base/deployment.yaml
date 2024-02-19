@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-iimc
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0046-tenant/tkrw-pr712-0075-0046-app/devfile-sample-iimc@sha256:946cd463744874539aa5be66aef6e2f32303bd73b454117b525037587b8f6f98
         name: my-nodejs
         ports:
         - containerPort: 3001
